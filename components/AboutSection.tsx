@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Award, Users, Clock, Star, Play, Film, Scissors, Palette } from 'lucide-react';
+import Image from 'next/image';
 import { useRef, useState } from 'react';
 
 const timeline = [
@@ -148,11 +149,14 @@ export default function AboutSection() {
               >
                 {/* Portrait image with film strip effect */}
                 <div className="aspect-[3/4] bg-gradient-to-br from-red-900/20 to-black overflow-hidden relative group">
-                  <img
-                    src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop"
-                    alt="Srujan Racherla"
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-                  />
+                
+<Image 
+  src="/profile.jpg" 
+  alt="Profile" 
+  width={400}   // required
+  height={400}  // required
+  className="rounded-lg"
+/>
                   
                   {/* Film strip perforations */}
                   <div className="absolute left-0 top-0 bottom-0 w-4 border-r border-red-500/20">

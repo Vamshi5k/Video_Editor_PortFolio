@@ -148,7 +148,7 @@ export default function ContactSection() {
             className="h-px bg-gradient-to-r from-transparent via-red-500 to-transparent mx-auto mb-8"
           />
           <p className="text-lg text-red-300 font-light tracking-[0.15em]">
-            あなたのビジョンを形にしましょう - Let's bring your vision to life
+            あなたのビジョンを形にしましょう - Let&apos;s bring your vision to life
           </p>
         </motion.div>
 
@@ -164,12 +164,12 @@ export default function ContactSection() {
           >
             <div>
               <h3 className="text-2xl font-light tracking-[0.15em] text-red-400 mb-4">
-                LET'S CREATE TOGETHER
+                LET&apos;S CREATE TOGETHER
               </h3>
               <div className="text-red-700 text-sm mb-8">協力して作りましょう - Collaborative Creation</div>
               <p className="text-base font-light leading-relaxed text-red-200 mb-8">
-                Whether you're looking to create a compelling narrative, enhance your brand's visual identity, 
-                or bring an artistic vision to life, I'm here to collaborate and craft something extraordinary.
+                Whether you&apos;re looking to create a compelling narrative, enhance your brand&apos;s visual identity, 
+                or bring an artistic vision to life, I&apos;m here to collaborate and craft something extraordinary.
               </p>
             </div>
 
@@ -247,7 +247,7 @@ export default function ContactSection() {
                       ✓
                     </motion.div>
                     <h3 className="text-2xl font-light text-red-400 mb-2">Message Sent!</h3>
-                    <p className="text-red-300">Thank you for your inquiry. I'll respond within 24 hours.</p>
+                    <p className="text-red-300">Thank you for your inquiry. I&apos;ll respond within 24 hours.</p>
                     <p className="text-red-700 text-sm mt-2">ありがとうございます - Thank you</p>
                   </motion.div>
                 </motion.div>
