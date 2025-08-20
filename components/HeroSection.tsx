@@ -80,8 +80,8 @@ export default function HeroSection() {
             key={i}
             initial={{ 
               opacity: 0,
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
+              x: Math.random() * (typeof window !== 'undefined' ? window.innerWidth : 1920),
+              y: Math.random() * (typeof window !== 'undefined' ? window.innerHeight : 1080),
               rotate: Math.random() * 360
             }}
             animate={{ 
